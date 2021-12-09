@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--columnCount显示行
+rowCount显示列-->
+<!--    android:orientation="horizontal"-->
+<!--    android:columnCount="3"-->
+<GridLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <Button
+        android:text="第一个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="第二个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="3"
+        />
+    <Button
+        android:text="第三个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:text="第四个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"/>
+    <Button
+        android:text="第五 个"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</GridLayout>

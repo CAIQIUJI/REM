@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+<!--    android:scaleType="fitXY" 拉伸 比例不对-->
+<!--    centerCrop保持宽高比 把宽搞了 长的长了截掉-->
+<!--    centerInside 和 fitInside区别
+        原图大小在小于IV的情况下会进行拉申，但大了就自己缩放成等比例
+        center fitInside小了的情况下不会进行拉伸
+        matrix从左上角开始绘制 能绘多少绘多少
+-->
+    <ImageView
+        android:src="@drawable/ceshi"
+        android:scaleType="centerInside"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+
+    <ImageView
+        android:src="@drawable/ceshi1"
+        android:scaleType="centerInside"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

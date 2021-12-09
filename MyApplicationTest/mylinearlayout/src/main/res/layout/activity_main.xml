@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    android:showDividers="middle"-->
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal|bottom"
+    android:divider="@drawable/ceshi1"
+    android:dividerPadding="100dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //权重分配的是剩余空间 权重是2 指在原有的100dp的基础上增加两份
+    <LinearLayout
+        android:background="#ffff00"
+        android:layout_width="100dp"
+        android:layout_weight="2"
+        android:layout_height="0dp"/>
+
+    <!--分割线设置法二-->
+    <View
+        android:background="#00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        />
+
+
+    <LinearLayout
+        android:background="#00ff00"
+        android:layout_width="100dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:background="#00ffff"
+        android:layout_width="100dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

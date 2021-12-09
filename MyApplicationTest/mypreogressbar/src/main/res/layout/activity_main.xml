@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="show or hide progressBar"
+        android:onClick="caiClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/pbload"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="simulate download"
+        android:onClick="load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:indeterminate="true"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

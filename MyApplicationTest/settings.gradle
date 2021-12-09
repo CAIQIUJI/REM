@@ -1,0 +1,27 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "My Application"
+include ':app'
+include ':mybutton'
+include ':myedittext'
+include ':myimageview'
+include ':mypreogressbar'
+include ':mynotification'
+include ':mytoolbar'
+include ':myalretdialog'
+include ':mypopupwindow'
+include ':mylinearlayout'
+include ':myrelativelayout'
+include ':myframelayout'
+include ':mytablelayout'
+include ':mygridlayout'
+include ':myconstraintlayout'
+include ':mylistview'
+include ':myrecyclerview'
+include ':recyclerviewtest'

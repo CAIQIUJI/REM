@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--表格布局会让这个button占用一行的大小-->
+<!--超过一行的大小后也不会自动换行-->
+<!--android:collapseColumns="0"第零列隐藏 number1不见了-->
+<!--拉伸首先要还有可以拉伸的位置-->
+<!--收缩也得有超出行的位置收缩才会有效-->
+<!--android:collapseColumns="0,2"
+    android:stretchColumns="1"-->
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:shrinkColumns="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+        <Button
+            android:text="number1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="2"
+            android:layout_span="2"/>
+        <Button
+            android:text="number2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:text="number1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:text="number2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:text="number3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:text="number4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:text="number5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </TableRow>
+
+    <Button
+        android:text="number1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+</TableLayout>

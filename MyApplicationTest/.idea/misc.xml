@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_project/MyApplicationTest/app/src/main/res/layout/activity_main.xml" value="0.30570652173913043" />
+        <entry key="..\:/Android_project/MyApplicationTest/myalretdialog/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android_project/MyApplicationTest/myalretdialog/src/main/res/layout/diaglog_view.xml" value="0.20625" />
+        <entry key="..\:/Android_project/MyApplicationTest/mybutton/src/main/res/drawable/btn_selector.xml" value="0.1" />
+        <entry key="..\:/Android_project/MyApplicationTest/mybutton/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android_project/MyApplicationTest/mybutton/src/main/res/layout/activity_main.xml" value="0.2956989247311828" />
+        <entry key="..\:/Android_project/MyApplicationTest/myconstraintlayout/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android_project/MyApplicationTest/myedittext/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_project/MyApplicationTest/myframelayout/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android_project/MyApplicationTest/mygridlayout/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android_project/MyApplicationTest/myimageview/src/main/res/layout/activity_main.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_project/MyApplicationTest/mylinearlayout/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android_project/MyApplicationTest/mylistview/src/main/res/layout/activity_main.xml" value="0.28854166666666664" />
+        <entry key="..\:/Android_project/MyApplicationTest/mylistview/src/main/res/layout/list_item.xml" value="0.303125" />
+        <entry key="..\:/Android_project/MyApplicationTest/mynotification/src/main/res/layout/activity_main.xml" value="0.340625" />
+        <entry key="..\:/Android_project/MyApplicationTest/mypopupwindow/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android_project/MyApplicationTest/mypopupwindow/src/main/res/layout/popup.xml" value="0.20625" />
+        <entry key="..\:/Android_project/MyApplicationTest/mypreogressbar/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_project/MyApplicationTest/myrecyclerview/src/main/res/layout/activity_main.xml" value="0.2109375" />
+        <entry key="..\:/Android_project/MyApplicationTest/myrecyclerview/src/main/res/layout/recyclerview_item.xml" value="0.1984375" />
+        <entry key="..\:/Android_project/MyApplicationTest/myrelativelayout/src/main/res/layout/activity_main.xml" value="0.20625" />
+        <entry key="..\:/Android_project/MyApplicationTest/mytablelayout/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android_project/MyApplicationTest/mytoolbar/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/activity_multi_type_activity.xml" value="0.34601449275362317" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/grid_list_view.xml" value="0.2546875" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/item_list_view.xml" value="0.1" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/item_stagger_view.xml" value="0.2477355072463768" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/item_type_full_image.xml" value="0.22" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/item_type_left_title_right_image.xml" value="0.34601449275362317" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/item_type_three_image.xml" value="0.34601449275362317" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/layout/list_grid_view.xml" value="0.1" />
+        <entry key="..\:/Android_project/MyApplicationTest/recyclerviewtest/src/main/res/menu/menu.xml" value="0.1984375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3333333333333333" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
